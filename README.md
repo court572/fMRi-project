@@ -1,0 +1,5 @@
+AE 2d coordinates 48x48x48.py / 64x64x64.py: Autoencoder for extracting trajectory coordinates at different spatial resolutions based on extracted weights from "AE weights" .
+AE weights 48x48x48.py / 64x64x64.py: Autoencoder which extracts weights/features from .nii files.
+QC cloud (density map) 48x48x48.py / 64x64x64.py: Generates density maps to visualize the distribution of brain activity, works as QC.
+1D CNN.py/3D CNN.py: Temporal-focused model that extract rhythmic patterns over time.
+QC interpolation.py: Standardizes the TR to 2,0 seconds by using linear interpolation.
